@@ -1,0 +1,38 @@
+.food { 
+    margin-top: 100px;
+    margin-left: 100px; 
+    display: flex;
+    flex-direction: column;
+}   
+.food h1 {
+    color: whitesmoke;
+    font-size: 40px;
+    margin: 0;
+    text-shadow: 2px 2px 5px black;
+}
+span {
+    color: rgb(70, 10, 30);
+    text-shadow: 2px 2px 5px black;
+}
+.food p {
+    color: whitesmoke;
+    text-align: justify;
+    width: 45%;
+}
+.food-column {
+    width: 75%;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.image {
+    border-radius: 400px;
+    transition: opacity 0.25s;
+}
+.image:hover {
+    opacity: 0.5;
+}
+.image:active {
+    opacity: 0.1;
+}

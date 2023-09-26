@@ -1,0 +1,18 @@
+.text {
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.text h1{
+    color: whitesmoke;
+    text-shadow: 2px 2px 3px black;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.text p {
+    color: whitesmoke;
+    font-size: 30px;
+}
+span {
+    color: rgb(70, 10, 30);
+    text-shadow: 2px 2px 3px black;
+}

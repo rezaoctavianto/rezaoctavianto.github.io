@@ -1,0 +1,55 @@
+*{
+    font-family: Roboto, Arial;
+}
+body {
+    background-image: linear-gradient(90deg, #103070 0%, #301070 35%, #701030 100%);
+}
+.home-header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav p {
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: bold;
+
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.25s;
+    text-shadow: 2px 2px 5px black;
+}
+nav ul li a:hover {
+    color: rgb(30, 10, 70);
+}
+nav ul li a:active {
+    opacity: 0.1;
+}
+.logo {
+    width: 70px;
+    border-radius: 50px;
+    border-style: groove;
+    border-color: whitesmoke;
+    transition: opacity 0.25s;
+}
+.logo:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
